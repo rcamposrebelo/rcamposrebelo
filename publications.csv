@@ -1,0 +1,41 @@
+title;authors;venue;year;doi
+Leveraging High-Level Petri Nets for Cyber-Physical Systems Development;Marta Ferreira, Matilde Pato, António Serrador, Rogério Campos-Rebelo, Nuno Datia, Jose Simão;Information Visualisation (IV);2024;https://doi.org/10.1109/IV64223.2024.00018
+Leveraging High-Level Petri Nets for Cyber-Physical Systems Development;Nuno Fernandes, João Paulo Barros and Rogerio Campos-Rebelo;PNSE;2024;https://doi.org/10.1109/IV64223.2024.00018
+Event-Based Modeling of Input Signal Behaviors for Discrete-Event Controllers;Luis Gomes, Diogo Natário, Anikó Costa, João-Paulo Barros and Rogério Campos-Rebelo;MDPI applied sciences;2024;https://doi.org/10.3390/app14125289
+Remote Debugger: A Tool to Remotely Monitor and Operate IOPT-Nets Controllers;Fernando Pereira, João-Paulo Barros, Filipe Moutinho, Anikó Costa, Rogério Campos-Rebelo and Luis Gomes;PETRI NETS;2024;https://doi.org/10.1007/978-3-031-61433-0_19
+A Low-Cost Solution for Assets Location Tracking Based on LoRaWAN Networks;Ricardo F. Severino, António Serrador, Nuno Datia, Rogério Campos-Rebelo, José Machado;IEEE WF-IoT;2024;https://doi.org/10.1109/WF-IoT58464.2023.10539413
+A Low-Cost Solution for Assets Location Tracking Based on LoRaWAN Networks;Ricardo F. Severino, António Serrador, Nuno Datia, Rogério Campos-Rebelo, José Machado;IEEE WF-IoT;2023;https://doi.org/10.1109/WF-IoT58464.2023.10539413
+ntegrated Development of Embedded Systems With Remote Graphical User Interfaces;Carolina Lagartinho-Oliveira, Fernando Pereira, Filipe Moutinho, Rogerio Campos-Rebelo and Luis Gomes;IEEE access;2023;https://doi.org/10.1109/ACCESS.2023.3287198
+Graphic Model for Shop Floor Simulation and Control in the Context of Industry 5.0;Nuno Fernandes, João Paulo Barros and Rogerio Campos-Rebelo;MDPI applied sciences;2023;https://doi.org/10.3390/app13020930
+Reconfigurable Sensor Node Applied to LoRa Networks;Filipa Gouveia, Rogério Campos-Rebelo and Filipe Moutinho ;APCA CONTROLO;2022;https://doi.org/10.1007/978-3-031-10047-5_14
+Input Event Modeling for Discrete-Event Controllers: A Petri Net Approach;Luis Gomes, Rogério Campos-Rebelo, Anikó Costa and João-Paulo Barros ;APCA CONTROLO;2022;https://doi.org/10.1007/978-3-031-10047-5_44
+A Graphical and Executable Model for Production Simulation in the Context of Industry 5.0;Nuno Fernandes, João Paulo Barros and Rogerio Campos-Rebelo;IEEE ISIE;2022;https://doi.org/10.1109/ISIE51582.2022.9831527
+IOPT-Tools – From Executable Models to Automatic Code Generation for Embedded Controllers Development;Fernando Pereira, Filipe Moutinho, Anikó Costa, João-Paulo Barros, Rogério Campos-Rebelo and Luis Gomes;PETRI NETS;2022;https://doi.org/10.1007/978-3-031-06653-5_7
+Management platform for data translators supported by semantic annotations;Gonçalo Adelino, Rogerio Campos-Rebelo, Filipe Moutinho and Pedro Maló;IEEE ICPS;2022;https://doi.org/10.1109/ICPS51978.2022.9816969
+JSON Schemas with Semantic Annotations Supporting Data Translation;Gonçalo Amaro, Filipe Moutinho, Rogério Campos-Rebelo, Julius Köpke and Pedro Maló;MDPI applied sciences;2021;https://doi.org/10.3390/app112411978
+NOVA Mobility Assistive System: Developed and Remotely Controlled with IOPT-Tools;Filipe Moutinho, Rogerio Campos-Rebelo, Carolina Lagartinho-Oliveira, Edna Moreira, Bruno Almeida and Luis Gomes;MDPI electronics;2020;https://doi.org/10.3390/electronics9081328
+Towards remote monitoring and reconfiguration of FPGA-based controllers using IOPT-Tools,;Gabriel Alves, Filipe Moutinho, Rogerio Campos-Rebelo and Luis Gomes;REC;2020;https://doi.org/10.1109/IV64223.2024.00018
+Static and Dynamic Algorithms for Terrain Classification in UAV Aerial Imagery;João P. Matos-Carvalho, Filipe Moutinho, Ana Beatriz Salvado,Tiago Carrasqueira, Rogerio Campos-Rebelo, Dário Pedro, Luís Miguel Campos, José M. Fonseca and André Mora;MDPI remote sensing;2019;https://doi.org/10.3390/rs11212501
+Web-based Editor for Signal Interpretation Models;Daniel Gomes, Filipe Moutinho and Rogerio Campos-Rebelo;IEEE IECON;2019;https://doi.org/10.1109/IECON.2019.8927437
+Asynchronous Interfaces for IOPT-Flow to Support GALS Systems;João Almeida, Filipe Moutinho and Rogerio Campos-Rebelo;IEEE IECON;2019;https://doi.org/10.1109/IECON.2019.8926790
+Model Based Simulation for a Smart City Project Based on LoRa;Rui Mesquita, Rogério Campos-Rebelo and João Paulo Barros;IEEE IECON;2019;https://doi.org/10.1109/IECON.2019.8927772
+Annotation Rules for XML Schemas with Grouped Semantic Annotations;Rogerio Campos-Rebelo, Filipe Moutinho, Luís Paiva and Pedro Maló;IEEE IECON;2019;https://doi.org/10.1109/IECON.2019.8927005
+A Survey of IOPT-Flow for GALS Systems Development;João Almeida, Filipe Moutinho and Rogerio Campos-Rebelo;YEF-ECE;2019;https://doi.org/10.1109/YEF-ECE.2019.8740814
+Self-configurable wireless automatic irrigation system;César Penha, Rogerio Campos-Rebelo and João Paulo Barros;YEF-ECE;2019;https://doi.org/10.1109/YEF-ECE.2019.8740827
+Graphical Formalism for Signal Interpretation Modeling;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;Springer Nature;2019;https://doi.org/10.1007/978-3-030-14350-3_8
+Event life time in detection of sequences of events;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;IEEE ICIT;2015;https://doi.org/10.1109/ICIT.2015.7125562
+Analysis and Generation of Logical Signals for Discrete Events Behavioral Modeling;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;DoCEIS;2015;https://doi.org/10.1007/978-3-319-16766-4_16
+Output events for human-system interaction modeling;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;IEEE HSI;2014;https://doi.org/10.1109/HSI.2014.6860486
+Communication support for Petri nets based distributed controllers;Edgar M. Silva, Rogério Campos-Rebelo, T Hirashima, Filipe Moutinho, Pedro Maló, Anikó Costa, and Luís Gomes;IEEE ISIE;2014;https://doi.org/10.1109/ISIE.2014.6864769
+Elementary events for modeling of human-system interactions with petri net models;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;DoCEIS;2014;https://doi.org/10.1007/978-3-642-54734-8_25
+Enhanced Event Modeling for Human-System Interactions Using IOPT Petri Nets;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;Springer Nature;2014;https://doi.org/10.1007/978-3-319-08491-6_4
+Events for human-system interaction modeling with IOPT Petri nets;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;IEEE HSI;2013;https://doi.org/10.1109/HSI.2013.6577802
+On structuring events for IOPT net models;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;DoCEIS;2013;https://doi.org/10.1007/978-3-642-37291-9_25
+Petri nets based study plan construction supporting student's evolution monitoring;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;IEEE ICELIE;2012;https://doi.org/10.1109/ICELIE.2012.6471148
+Finding learning paths using Petri nets modeling applicable to e-learning platforms;Rogério Campos-Rebelo, Anikó Costa, and Luís Gomes;DoCEIS;2012;https://doi.org/10.1007/978-3-642-28255-3_17
+From IOPT Petri nets to C: an Automatic Code Generator Tool;Rogério Campos-Rebelo, Fernando Pereira, Filipe Moutinho and Luís Gomes;IEEE INDIN;2011;https://doi.org/10.1109/INDIN.2011.6034908
+An IOPT-net State-Space Generator Tool;Fernando Pereira, Filipe Moutinho, Luís Gomes, José Ribeiro, and Rogério Campos-Rebelo;IEEE INDIN;2011;https://doi.org/10.1109/INDIN.2011.6034907
+Introducing Model-based Development within the Reengineering of a Smart House Controllers System;Mauro Reis, Rogério Campos-Rebelo, and Luís Gomes;IEEE INDIN;2011;https://doi.org/10.1109/INDIN.2011.6034987
+IOPT Petri Net State Space Generation Algorithm with Maximal-Step Execution Semantics;Fernando Pereira, Filipe Moutinho, Luís Gomes, and Rogério Campos-Rebelo;IEEE INDIN;2011;https://doi.org/10.1109/INDIN.2011.6034958
+Bridge Expansion Joints Monitoring System;Hugo Guerreiro, Rogério Campos-Rebelo, and Luis Gomes;IEEE INES;2011;https://doi.org/10.1109/INES.2011.5954711
+From Petri net models to C implementation of digital controllers;Luís Gomes, Rogério Rebelo, João Paulo Barros, Anikó Costa and Rui Pais;IEEE ISIE;2010;https://doi.org/10.1109/ISIE.2010.5637670

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Publicações</title>
+
+<style>
+.pub-link {
+    text-decoration: none;
+    color: inherit;
+}
+.pub {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+    margin-bottom: 6px;
+}
+.pub:hover {
+    background: #f3f4f6;
+}
+.pub-info {
+    display: flex;
+    flex-direction: column;
+}
+.pub-title {
+    font-weight: bold;
+}
+.pub-authors {
+    font-size: 0.9em;
+    color: #444;
+}
+.pub-venue {
+    font-size: 0.9em;
+    color: #666;
+}
+.pub-year {
+    font-weight: bold;
+    color: #333;
+    margin-left: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Publicações</h2>
+<div id="pub-container"></div>
+
+<!-- CSV embutido -->
+<script id="pubcsv" type="text/csv">
+title,authors,venue,year,doi
+"IoT Sensor-Node Generic Metamodel supporting real time device emulation","P dos Santos, R Campos-Rebelo, R Mesquita","9th International Young Engineers Forum on Electrical and Computer Engineering",2025,https://doi.org/10.xxx/yyy
+"High-Level Petri Net Controller for Flexible Manufacturing Systems","R Mesquita, A Silva, M Pereira","International Conference on Automation Science and Engineering",2024,https://doi.org/10.1234/abcd1
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+"Adaptive Traffic Light Control using Formal Models","R Mesquita, L Fernandes","IEEE Smart Cities Symposium",2023,https://doi.org/10.1234/abcd2
+
+</script>
+
+<script>
+// Ler CSV embutido
+function parseCSV(text) {
+    const lines = text.trim().split("\n");
+    const result = [];
+
+    for (let i = 1; i < lines.length; i++) {
+        const cols = lines[i].split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/);
+
+        result.push({
+            title: cols[0].replace(/"/g, ''),
+            authors: cols[1].replace(/"/g, ''),
+            venue: cols[2].replace(/"/g, ''),
+            year: cols[3],
+            doi: cols[4]
+        });
+    }
+    return result;
+}
+
+// Gerar HTML
+function renderPublications(publications) {
+    const container = document.getElementById("pub-container");
+    container.innerHTML = "";
+
+    publications.forEach(pub => {
+        container.innerHTML += `
+            <a class="pub-link" href="${pub.doi}" target="_blank">
+                <div class="pub">
+                    <div class="pub-info">
+                        <span class="pub-title">${pub.title}</span>
+                        <span class="pub-authors">${pub.authors}</span>
+                        <span class="pub-venue"><em>${pub.venue}</em></span>
+                    </div>
+                    <span class="pub-year">${pub.year}</span>
+                </div>
+            </a>
+        `;
+    });
+}
+
+// Carregar CSV interno
+const csvText = document.getElementById("pubcsv").textContent;
+const publications = parseCSV(csvText);
+renderPublications(publications);
+</script>
+
+</body>
+</html>
